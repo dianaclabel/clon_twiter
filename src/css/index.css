@@ -1,0 +1,20 @@
+.header {
+  margin: 20px;
+}
+
+.header--icon {
+  color: var(--brand-color);
+  font-size: 30px;
+}
+
+.main--titles {
+  margin: 20px;
+}
+
+.main--title {
+  font-size: 24px;
+}
+
+h1.titles--title {
+  margin-bottom: 15px;
+}
