@@ -10,7 +10,7 @@
 .main--titles {
   margin: 20px;
   font-weight: 700;
-  width: 30%;
+  width: 50%;
 }
 
 h1.titles--title {
@@ -25,15 +25,35 @@ h1.titles--title {
   font-size: 18px;
   margin: 0 10px;
   margin: 10px;
+  width: 300px;
+  text-overflow: ellipsis;
+  height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .main--button__white {
   border: 1px solid gray;
   background: white;
-  width: 300px;
 }
 
 .main--button__blue {
   background: var(--brand-color);
   color: white;
+}
+
+.main--buttons .main--button img {
+  width: 20px;
+  height: 20px;
+}
+
+.main--division {
+  text-align: center;
+  width: 50%;
+  border-bottom: 1px solid black;
+}
+.main--text {
+  font-size: 14px;
+  width: 45%;
+  margin: 20px;
 }
