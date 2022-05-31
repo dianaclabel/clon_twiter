@@ -137,7 +137,7 @@ h1.titles--title {
     display: flex;
     flex-direction: row-reverse;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
   }
   .main {
     display: flex;
@@ -150,9 +150,26 @@ h1.titles--title {
   }
   .main--button {
     display: block;
+    width: 300px;
+    margin: 10px 0;
+  }
+  .main--titles {
+    max-width: 50rem;
   }
 
-  h1.title--title {
+  h1.titles--title {
     font-size: 5rem;
+  }
+
+  .main--division {
+    max-width: 300px;
+    margin: 0;
+  }
+
+  .main--text {
+    width: 300px;
+  }
+  .footer {
+    height: 5vh;
   }
 }
