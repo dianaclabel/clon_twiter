@@ -139,4 +139,20 @@ h1.titles--title {
     width: 100vw;
     height: 100vh;
   }
+  .main {
+    display: flex;
+    align-items: center;
+  }
+  .main--background,
+  .helper--content {
+    width: 50%;
+    height: 100%;
+  }
+  .main--button {
+    display: block;
+  }
+
+  h1.title--title {
+    font-size: 5rem;
+  }
 }
