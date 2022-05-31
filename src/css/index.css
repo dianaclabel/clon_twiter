@@ -51,12 +51,12 @@ h1.titles--title {
 
 .main--button__white {
   border: 1px solid var(--gray-color);
-  background: white;
+  background: var(--white-color);
 }
 
 .main--button__blue {
   background: var(--brand-color);
-  color: white;
+  color: var(--white-color);
 }
 
 .main--buttons .main--button img {
@@ -93,7 +93,7 @@ h1.titles--title {
 
 .main--button__white-blue {
   color: var(--brand-color);
-  background-color: white;
+  background-color: var(--white-color);
   border-radius: 25px;
   border: 1px solid var(--gray-color);
   padding: 8px;
@@ -113,7 +113,7 @@ h1.titles--title {
 
 .logotipo--twiter {
   font-size: 20.8rem;
-  color: white;
+  color: var(--white-color);
 }
 .footer {
   width: 100%;
@@ -130,4 +130,13 @@ h1.titles--title {
 }
 .footer--list li a {
   color: #536471;
+}
+
+@media screen and (min-width: 1024px) {
+  .helper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 100vh;
+  }
 }
